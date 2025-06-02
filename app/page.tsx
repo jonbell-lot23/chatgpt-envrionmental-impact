@@ -86,7 +86,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://waterfootprint.org/en/resources/interactive-tools/product-gallery/",
         },
         calculation:
-          "100,000 ChatGPT queries use 2,500 L of water. A single hamburger requires 2,400 L of water. So 100,000 queries use about the same amount of water as making one hamburger.",
+          "Here's something surprising: a single hamburger requires 2,400 liters of water to produce. That's roughly the same as 100,000 ChatGPT queries (2,500 L). So every time you order a burger, you're consuming about as much water as asking ChatGPT 100,000 questions.",
       },
       energy: {
         chatgpt: {
@@ -101,7 +101,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.researchgate.net/figure/Energy-use-for-a-hamburger-MJ-per-hamburger_fig1_237432172",
         },
         calculation:
-          "100,000 ChatGPT queries use 30 kWh of energy. A hamburger requires about 2.5 kWh of energy. So 100,000 queries use about as much energy as making 12 hamburgers.",
+          "At 0.3 watt-hours per query, 100,000 ChatGPT queries consume 30 kWh total. A hamburger needs about 2.5 kWh to produce—so those 100,000 queries could have made a dozen burgers. That's a lot of computational power for what amounts to a small cookout!",
       },
       carbon: {
         chatgpt: {
@@ -115,7 +115,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://en.wikipedia.org/wiki/Individual_action_on_climate_change#Food",
         },
         calculation:
-          "100,000 ChatGPT queries produce 13.5 kg of CO₂-e. A cheeseburger produces 1.9 kg of CO₂-e. So 100,000 queries produce about as much CO₂ as making 7 cheeseburgers.",
+          "Each cheeseburger adds 1.9 kg of CO₂ to the atmosphere. With 100,000 queries producing 13.5 kg CO₂-e, that's equivalent to about 7 cheeseburgers. Next time you're at a BBQ, consider that the carbon footprint of the burgers on the grill equals hundreds of thousands of AI interactions.",
       },
     },
   },
@@ -151,11 +151,12 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://arxiv.org/abs/2304.03271",
         },
         comparison: {
-          quote: "A single iPhone charge' energy consumption is 0.012 kWh.",
+          quote: "A single iPhone charge's energy consumption is 0.012 kWh.",
           author: "Apple Inc., 2023",
           url: "https://www.apple.com/environment/",
         },
-        calculation: "17,400 charges × 0.0004347826087 L/charge ≈ 7.6 L",
+        calculation:
+          "Phone charging is incredibly efficient—just 0.012 kWh per charge, which uses only 0.14 liters of water through power generation. That means 100,000 ChatGPT queries (2,500 L) consume the same water as charging your iPhone every single night for 47 years!",
       },
       energy: {
         chatgpt: {
@@ -168,7 +169,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "EnergySage, 2024",
           url: "https://www.energysage.com/electricity/house-watts/how-many-watts-does-a-phone-charger-use/",
         },
-        calculation: "17,400 charges × 0.0001091703043 kWh/charge ≈ 1.9 kWh",
+        calculation:
+          "Your iPhone uses just 0.019 kWh per charge—that's impressively efficient. Meanwhile, 100,000 ChatGPT queries burn through 30 kWh. You could charge your phone 1,580 times with that energy—that's over 4 years of daily charging!",
       },
       carbon: {
         chatgpt: {
@@ -181,7 +183,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "EnergySage, 2024",
           url: "https://www.energysage.com/electricity/house-watts/how-many-watts-does-a-phone-charger-use/",
         },
-        calculation: "17,400 charges × 0.000450 kg CO₂-e/charge ≈ 7.8 kg CO₂-e",
+        calculation:
+          "Each iPhone charge releases about 8.5 grams of CO₂. The 13.5 kg from 100,000 ChatGPT queries? That equals 1,580 phone charges. If you charge nightly, those queries match your phone's carbon footprint for the next 4.3 years.",
       },
     },
   },
@@ -222,7 +225,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.sciencedirect.com/science/article/pii/S0016236117309511",
         },
         calculation:
-          "2.6 days × 24 hours/day × 0.09 gal water/gal fuel ≈ 5.8 gal water",
+          "Refining jet fuel is surprisingly water-intensive at 0.34 liters per liter of fuel. A Boeing 737 burns about 2,500 kg of fuel per hour. With 100,000 ChatGPT queries using 2,500 L of water, you could refine enough fuel to keep that plane aloft for over 2.5 days!",
       },
       energy: {
         chatgpt: {
@@ -235,7 +238,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "Autosport",
           url: "https://www.autosport.com/f1/news/how-much-fuel-does-a-formula-1-car-use-f1-nascar-more-compared-4980266/",
         },
-        calculation: "4.4 minutes ÷ 60 minutes/hour × 11.9 kWh/kg ≈ 0.89 kWh",
+        calculation:
+          "A Boeing 737 burns through 410 kWh of energy every minute it flies. Those 100,000 ChatGPT queries at 30 kWh? That's just 4.4 minutes of flight time. By the time you finish reading this sentence, a 737 has already consumed more energy than all those queries combined.",
       },
       carbon: {
         chatgpt: {
@@ -250,7 +254,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.icao.int/environmental-protection/Pages/calculator.aspx",
         },
         calculation:
-          "3.2 minutes ÷ 60 minutes/hour × 1.5 kg CO₂/min ≈ 0.08 kg CO₂",
+          "Every minute you're on a domestic flight, you personally generate about 4.2 kg of CO₂. The entire carbon footprint of 100,000 ChatGPT queries (13.5 kg) equals just 3.2 minutes of your flight time—less than the time it takes to reach cruising altitude.",
       },
     },
   },
@@ -290,7 +294,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "Water Footprint Network, 2023",
           url: "https://waterfootprint.org/en/resources/interactive-tools/product-gallery/",
         },
-        calculation: "7.8 toasts × 320 L/toast ≈ 2,496 L",
+        calculation:
+          "That trendy avocado toast comes at a cost: 320 liters of water per avocado. Divide 2,500 L (from 100,000 queries) by 320 L and you get 7.8 avocados. So your massive ChatGPT session equals less than 8 pieces of avocado toast—suddenly that brunch habit seems pretty thirsty!",
       },
       energy: {
         chatgpt: {
@@ -303,7 +308,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "Washington Agriculture LCA",
           url: "https://viva.org.uk/planet/are-avocados-worse-for-the-environment-than-meat/",
         },
-        calculation: "7.8 toasts × 0.4 kWh/toast ≈ 3.12 kWh",
+        calculation:
+          "Good news for avocado lovers: at just 0.4 kWh per avocado, they're relatively energy-light. With 100,000 queries using 30 kWh, you could produce 75 avocados—enough for avocado toast every morning for over two months!",
       },
       carbon: {
         chatgpt: {
@@ -317,7 +323,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "Viva!, 2021",
           url: "https://viva.org.uk/planet/are-avocados-worse-for-the-environment-than-meat/",
         },
-        calculation: "7.8 toasts × 0.19 kg CO₂-e/toast ≈ 1.48 kg CO₂-e",
+        calculation:
+          "Avocados are carbon champions among foods at just 0.19 kg CO₂ each. Those 100,000 queries producing 13.5 kg CO₂? That's 71 avocados worth. You could eat avocado toast daily for over two months before matching the carbon footprint of that ChatGPT marathon.",
       },
     },
   },
@@ -357,7 +364,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "Water Footprint Network, 2023",
           url: "https://waterfootprint.org/en/resources/interactive-tools/product-gallery/",
         },
-        calculation: "12.5 lattes × 200 L/latte ≈ 2,500 L",
+        calculation:
+          "Your morning latte secretly gulps 200 liters of water—from growing coffee beans to raising dairy cows. With 2,500 L total from 100,000 queries, that's just 12.5 lattes. Put another way: skip your coffee for two weeks and you've saved as much water as a massive AI session.",
       },
       energy: {
         chatgpt: {
@@ -371,7 +379,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "BarTalks, 2021",
           url: "https://bartalks.net/study-on-carbon-footprint-for-coffee-and-77-cut/",
         },
-        calculation: "12.5 lattes × 0.54 kWh/latte ≈ 6.75 kWh",
+        calculation:
+          "From bean to cup, each latte requires 0.54 kWh—but here's where it gets interesting. Those 100,000 queries at 30 kWh could make 600 lattes! That's nearly two years of daily coffee runs, all from the energy of querying ChatGPT.",
       },
       carbon: {
         chatgpt: {
@@ -384,7 +393,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "Nicole Battefeld, 2021",
           url: "https://www.nicolebattefeld.com/post/carbon-footprint-of-coffee",
         },
-        calculation: "12.5 lattes × 0.55 kg CO₂/latte ≈ 6.88 kg CO₂",
+        calculation:
+          "Coffee's carbon footprint is hefty at 0.55 kg per latte. Divide the 13.5 kg from 100,000 queries by that, and you get about 25 lattes. That's your entire month's worth of coffee shop visits packed into one AI conversation session.",
       },
     },
   },
@@ -423,7 +433,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "Water Footprint Network, 2023",
           url: "https://waterfootprint.org/en/resources/interactive-tools/product-gallery/",
         },
-        calculation: "15 pints × 168 L/pint ≈ 2,520 L",
+        calculation:
+          "Beer production is thirsty work—168 liters per pint from barley field to brewery. Those 2,500 L from 100,000 queries? That's only 15 pints. Next Friday's happy hour could consume more water than your entire ChatGPT habit.",
       },
       energy: {
         chatgpt: {
@@ -436,7 +447,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "ChooseEnergy, 2020",
           url: "https://www.chooseenergy.com/news/article/how-much-energy-it-takes-to-brew-st-patricks-day-beer/",
         },
-        calculation: "15 pints × 0.2 kWh/pint ≈ 3 kWh",
+        calculation:
+          "Modern breweries are surprisingly efficient, using just 0.3 kWh per pint. The 30 kWh from those queries could brew 100 pints—that's a proper party! Or looked at differently, every 1,000 ChatGPT questions equals the energy in one cold beer.",
       },
       carbon: {
         chatgpt: {
@@ -449,7 +461,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "The Guardian, 2010",
           url: "https://www.theguardian.com/environment/green-living-blog/2010/jun/04/carbon-footprint-beer",
         },
-        calculation: "15 pints × 0.5 kg CO₂-e/pint ≈ 7.5 kg CO₂-e",
+        calculation:
+          "Each pint releases half a kilogram of CO₂—and that's before the bubbles! With 13.5 kg from 100,000 queries, that equals 27 pints. So a month of weekend drinks has the same carbon impact as all those AI interactions.",
       },
     },
   },
@@ -491,7 +504,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.fluencecorp.com/water-use-in-petroleum-refining/",
         },
         calculation:
-          "~21 days × 24 hours/day × 0.09 gal water/gal fuel ≈ 45 gal water",
+          "Gasoline refining needs about 0.34 liters of water per liter of fuel. With the average car getting 25 mpg and using 3.8 L per day commuting, that's 1.3 L of water daily. Those 2,500 L from 100,000 queries? That's three weeks of commuting—not bad for a technology often accused of being wasteful!",
       },
       energy: {
         chatgpt: {
@@ -506,7 +519,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle",
         },
         calculation:
-          "45 minutes ÷ 60 minutes/hour × 404 g CO₂/mile ≈ 303 g CO₂",
+          "A typical car burns through 40 kWh of energy per hour of driving. Those 100,000 queries at 30 kWh? That's just 45 minutes on the highway. Your daily commute likely uses more energy than months of ChatGPT conversations.",
       },
       carbon: {
         chatgpt: {
@@ -521,7 +534,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle",
         },
         calculation:
-          "45 minutes ÷ 60 minutes/hour × 404 g CO₂/mile ≈ 303 g CO₂",
+          "Cars emit about 177 grams of CO₂ per kilometer. The 13.5 kg from 100,000 queries equals just 76 km of driving—about an hour and a quarter on the road. Many people drive that far just getting to work and back.",
       },
     },
   },
@@ -562,7 +575,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "DataCenterKnowledge, 2016",
           url: "https://www.datacenterknowledge.com/business/heres-how-much-water-all-us-data-centers-consume",
         },
-        calculation: "~14 days × 24 hours/day × 7.6 L/kWh ≈ 2,544 L",
+        calculation:
+          "Power plants evaporate 7.6 liters of water per kWh generated. The average Melbourne home uses about 24 kWh daily, evaporating 182 liters. With 2,500 L from those queries, that's roughly two weeks of household electricity. Every time you flip a switch, water literally goes up in steam.",
       },
       energy: {
         chatgpt: {
@@ -575,7 +589,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "The Australian, 2024",
           url: "https://www.theaustralian.com.au/nation/politics/victorias-grid-dirtiest-as-experts-say-yallourn-may-stay-open-longer-than-planned/news-story/8725102ad58fb5efd454d157a5074b1b",
         },
-        calculation: "30 hours × 0.85 kg CO₂/kWh ≈ 25.5 kg CO₂",
+        calculation:
+          "The average Melbourne home consumes about 24 kWh per day. Those 100,000 queries using 30 kWh? That's keeping your lights on, fridge running, and devices charged for just 30 hours. A single day and a quarter of normal life equals a massive AI session.",
       },
       carbon: {
         chatgpt: {
@@ -588,7 +603,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "The Australian, 2024",
           url: "https://www.theaustralian.com.au/nation/politics/victorias-grid-dirtiest-as-experts-say-yallourn-may-stay-open-longer-than-planned/news-story/8725102ad58fb5efd454d157a5074b1b",
         },
-        calculation: "16 hours × 0.85 kg CO₂/kWh ≈ 13.6 kg CO₂",
+        calculation:
+          "Victoria's coal-heavy grid emits 0.85 kg CO₂ per kWh—nearly double the global average. Still, those 100,000 queries at 13.5 kg CO₂ equal just 16 kWh on the local grid. That's only 16 hours of typical household electricity use in Melbourne.",
       },
     },
   },
@@ -627,7 +643,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "Autosport, 2021",
           url: "https://www.autosport.com/f1/news/how-much-fuel-does-a-formula-1-car-use-f1-nascar-more-compared-4980266/",
         },
-        calculation: "17 races × 110 kg fuel/race ≈ 1,870 kg fuel",
+        calculation:
+          "F1 cars are limited to 110 kg of fuel per race, requiring about 147 liters of water to refine. With 2,500 L from 100,000 queries, you could fuel 17 complete Formula 1 races! That's almost an entire season of racing from what seems like a lot of ChatGPT usage.",
       },
       energy: {
         chatgpt: {
@@ -640,7 +657,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "Wired Energy blog, 2023",
           url: "https://h2sciencecoalition.com/blog/hydrogen-for-aircraft-number-crunching-the-solution-or-the-hoax/",
         },
-        calculation: "0.02 kg fuel × 11.9 kWh/kg fuel ≈ 0.24 kWh",
+        calculation:
+          "An F1 car's 110 kg fuel load packs 1,300 kWh of energy. Those 100,000 queries at 30 kWh? That's just 2% of a single race's fuel. In F1 terms, that's about 3 laps around the track—blink and you'll miss it.",
       },
       carbon: {
         chatgpt: {
@@ -654,7 +672,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://theicct.org/sites/default/files/publications/variation-aviation-emissions-itinerary-jul2021-1.pdf",
         },
         calculation:
-          "0.04 kg CO₂-e ÷ 0.02 kg fuel × 3.16 kg CO₂/kg fuel ≈ 6.32 kg CO₂-e",
+          "One F1 race burns 110 kg of fuel, releasing 348 kg of CO₂. The 13.5 kg from those queries? That's just 4% of one race. Lewis Hamilton produces more carbon in a single qualifying lap than your entire ChatGPT session.",
       },
     },
   },
@@ -693,7 +711,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "Automotive World, 2014",
           url: "https://www.automotiveworld.com/articles/water-water-everywhere-vehicle-manufacturing/",
         },
-        calculation: "0.01 car × 39,000 gal water/car ≈ 390 gal water",
+        calculation:
+          "Manufacturing a single car requires a staggering 148,000 liters of water—enough to fill 74 average swimming pools. In comparison, those 2,500 L from 100,000 queries? That's just 1.7% of building one car. You'd need 6 million ChatGPT queries to match the water footprint of that new vehicle in your driveway.",
       },
       energy: {
         chatgpt: {
@@ -706,7 +725,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "Ricardo",
           url: "https://www.greencarcongress.com/2011/06/lowcvp-20110608.html",
         },
-        calculation: "0.0015 kWh × 24,000 kWh/car ≈ 36 kWh",
+        calculation:
+          "Before a car even hits the road, it's already consumed 24,000 kWh in manufacturing. Your 100,000 queries at 30 kWh? That's 0.125% of making one car—roughly equivalent to installing the cup holders. You'd need 80 million queries to match the energy of manufacturing a single vehicle.",
       },
       carbon: {
         chatgpt: {
@@ -719,7 +739,8 @@ const environmentalData: EnvironmentalItem[] = [
           author: "Zemo Partnership lifecycle report, 2011",
           url: "https://www.zemo.org.uk/assets/workingdocuments/MC-P-11-15a%20Lifecycle%20emissions%20report.pdf",
         },
-        calculation: "0.002 t CO₂-e × 5,600 kg CO₂-e/t ≈ 11.2 kg CO₂-e",
+        calculation:
+          "A car's manufacturing releases 5.6 tonnes of CO₂ before it drives a single kilometer. Those 13.5 kg from 100,000 queries? That's just 0.24% of one car's production emissions—about what's released making the floor mats. The real carbon cost is in what we drive, not what we type.",
       },
     },
   },
