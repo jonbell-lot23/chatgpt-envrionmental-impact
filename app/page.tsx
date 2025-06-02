@@ -86,7 +86,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://waterfootprint.org/en/resources/interactive-tools/product-gallery/",
         },
         calculation:
-          "Here's something surprising: a single hamburger requires 2,400 liters of water to produce. That's roughly the same as 100,000 ChatGPT queries (2,500 L). So every time you order a burger, you're consuming about as much water as asking ChatGPT 100,000 questions.",
+          "A hamburger requires 2,400 liters of water to produce. With ChatGPT using 25 liters per 1,000 queries, 100,000 queries use 2,500 liters. That's roughly equal to making just one hamburger.",
       },
       energy: {
         chatgpt: {
@@ -101,7 +101,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.researchgate.net/figure/Energy-use-for-a-hamburger-MJ-per-hamburger_fig1_237432172",
         },
         calculation:
-          "At 0.3 watt-hours per query, 100,000 ChatGPT queries consume 30 kWh total. A hamburger needs about 2.5 kWh to produce—so those 100,000 queries could have made a dozen burgers. That's a lot of computational power for what amounts to a small cookout!",
+          "Making a hamburger uses about 2.5 kWh of energy. At 0.3 watt-hours per query, 100,000 queries consume 30 kWh. That's enough energy to make 12 hamburgers.",
       },
       carbon: {
         chatgpt: {
@@ -115,7 +115,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://en.wikipedia.org/wiki/Individual_action_on_climate_change#Food",
         },
         calculation:
-          "Each cheeseburger adds 1.9 kg of CO₂ to the atmosphere. With 100,000 queries producing 13.5 kg CO₂-e, that's equivalent to about 7 cheeseburgers. Next time you're at a BBQ, consider that the carbon footprint of the burgers on the grill equals hundreds of thousands of AI interactions.",
+          "A cheeseburger produces 1.9 kg of CO₂. ChatGPT generates 0.135 g CO₂ per query, so 100,000 queries produce 13.5 kg. That equals about 7 cheeseburgers worth of emissions.",
       },
     },
   },
@@ -156,7 +156,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.apple.com/environment/",
         },
         calculation:
-          "Phone charging is incredibly efficient—just 0.012 kWh per charge, which uses only 0.14 liters of water through power generation. That means 100,000 ChatGPT queries (2,500 L) consume the same water as charging your iPhone every single night for 47 years!",
+          "Charging an iPhone uses 0.012 kWh, which requires 0.14 liters of water for power generation. 100,000 ChatGPT queries use 2,500 liters. That means the queries use as much water as 17,400 iPhone charges.",
       },
       energy: {
         chatgpt: {
@@ -170,7 +170,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.energysage.com/electricity/house-watts/how-many-watts-does-a-phone-charger-use/",
         },
         calculation:
-          "Your iPhone uses just 0.019 kWh per charge—that's impressively efficient. Meanwhile, 100,000 ChatGPT queries burn through 30 kWh. You could charge your phone 1,580 times with that energy—that's over 4 years of daily charging!",
+          "An iPhone charge takes 0.019 kWh. Since 100,000 queries use 30 kWh total, that's equivalent to 1,580 phone charges.",
       },
       carbon: {
         chatgpt: {
@@ -184,7 +184,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.energysage.com/electricity/house-watts/how-many-watts-does-a-phone-charger-use/",
         },
         calculation:
-          "Each iPhone charge releases about 8.5 grams of CO₂. The 13.5 kg from 100,000 ChatGPT queries? That equals 1,580 phone charges. If you charge nightly, those queries match your phone's carbon footprint for the next 4.3 years.",
+          "Each iPhone charge creates 8.5 g of CO₂ (0.019 kWh × 450 g/kWh). With 100,000 queries producing 13.5 kg CO₂, that equals 1,580 phone charges.",
       },
     },
   },
@@ -225,7 +225,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.sciencedirect.com/science/article/pii/S0016236117309511",
         },
         calculation:
-          "Refining jet fuel is surprisingly water-intensive at 0.34 liters per liter of fuel. A Boeing 737 burns about 2,500 kg of fuel per hour. With 100,000 ChatGPT queries using 2,500 L of water, you could refine enough fuel to keep that plane aloft for over 2.5 days!",
+          "Refining jet fuel requires 0.34 liters of water per liter of fuel. A 737 burns 40 liters per minute, needing 976 liters of water daily for fuel refining. So 100,000 queries (2,500 L) equals 2.6 days of flight fuel water usage.",
       },
       energy: {
         chatgpt: {
@@ -239,7 +239,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.autosport.com/f1/news/how-much-fuel-does-a-formula-1-car-use-f1-nascar-more-compared-4980266/",
         },
         calculation:
-          "A Boeing 737 burns through 410 kWh of energy every minute it flies. Those 100,000 ChatGPT queries at 30 kWh? That's just 4.4 minutes of flight time. By the time you finish reading this sentence, a 737 has already consumed more energy than all those queries combined.",
+          "A Boeing 737 consumes 410 kWh per minute of flight. With 100,000 queries using 30 kWh, that equals just 4.4 minutes of flight time.",
       },
       carbon: {
         chatgpt: {
@@ -254,7 +254,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.icao.int/environmental-protection/Pages/calculator.aspx",
         },
         calculation:
-          "Every minute you're on a domestic flight, you personally generate about 4.2 kg of CO₂. The entire carbon footprint of 100,000 ChatGPT queries (13.5 kg) equals just 3.2 minutes of your flight time—less than the time it takes to reach cruising altitude.",
+          "Each passenger generates 4.2 kg CO₂ per minute on a domestic flight. Since 100,000 queries produce 13.5 kg CO₂, that's equivalent to 3.2 minutes of flight time.",
       },
     },
   },
@@ -295,7 +295,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://waterfootprint.org/en/resources/interactive-tools/product-gallery/",
         },
         calculation:
-          "That trendy avocado toast comes at a cost: 320 liters of water per avocado. Divide 2,500 L (from 100,000 queries) by 320 L and you get 7.8 avocados. So your massive ChatGPT session equals less than 8 pieces of avocado toast—suddenly that brunch habit seems pretty thirsty!",
+          "One avocado needs 320 liters of water to grow. 100,000 queries use 2,500 liters total, which equals 7.8 avocados worth of water.",
       },
       energy: {
         chatgpt: {
@@ -309,7 +309,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://viva.org.uk/planet/are-avocados-worse-for-the-environment-than-meat/",
         },
         calculation:
-          "Good news for avocado lovers: at just 0.4 kWh per avocado, they're relatively energy-light. With 100,000 queries using 30 kWh, you could produce 75 avocados—enough for avocado toast every morning for over two months!",
+          "Each avocado requires 0.4 kWh to produce. Since 100,000 queries consume 30 kWh, that's the same energy as producing 75 avocados.",
       },
       carbon: {
         chatgpt: {
@@ -324,7 +324,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://viva.org.uk/planet/are-avocados-worse-for-the-environment-than-meat/",
         },
         calculation:
-          "Avocados are carbon champions among foods at just 0.19 kg CO₂ each. Those 100,000 queries producing 13.5 kg CO₂? That's 71 avocados worth. You could eat avocado toast daily for over two months before matching the carbon footprint of that ChatGPT marathon.",
+          "An avocado generates 0.19 kg CO₂ from farm to table. With 100,000 queries producing 13.5 kg, that equals the carbon footprint of 71 avocados.",
       },
     },
   },
@@ -365,7 +365,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://waterfootprint.org/en/resources/interactive-tools/product-gallery/",
         },
         calculation:
-          "Your morning latte secretly gulps 200 liters of water—from growing coffee beans to raising dairy cows. With 2,500 L total from 100,000 queries, that's just 12.5 lattes. Put another way: skip your coffee for two weeks and you've saved as much water as a massive AI session.",
+          "A latte requires 200 liters of water (from bean cultivation to milk production). So 100,000 queries at 2,500 liters equals 12.5 lattes.",
       },
       energy: {
         chatgpt: {
@@ -380,7 +380,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://bartalks.net/study-on-carbon-footprint-for-coffee-and-77-cut/",
         },
         calculation:
-          "From bean to cup, each latte requires 0.54 kWh—but here's where it gets interesting. Those 100,000 queries at 30 kWh could make 600 lattes! That's nearly two years of daily coffee runs, all from the energy of querying ChatGPT.",
+          "Making a latte uses 0.05 kWh of energy. 100,000 queries at 30 kWh could make 600 lattes.",
       },
       carbon: {
         chatgpt: {
@@ -394,7 +394,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.nicolebattefeld.com/post/carbon-footprint-of-coffee",
         },
         calculation:
-          "Coffee's carbon footprint is hefty at 0.55 kg per latte. Divide the 13.5 kg from 100,000 queries by that, and you get about 25 lattes. That's your entire month's worth of coffee shop visits packed into one AI conversation session.",
+          "Each latte produces 0.55 kg CO₂. Since 100,000 queries generate 13.5 kg, that's equivalent to 25 lattes' worth of emissions.",
       },
     },
   },
@@ -434,7 +434,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://waterfootprint.org/en/resources/interactive-tools/product-gallery/",
         },
         calculation:
-          "Beer production is thirsty work—168 liters per pint from barley field to brewery. Those 2,500 L from 100,000 queries? That's only 15 pints. Next Friday's happy hour could consume more water than your entire ChatGPT habit.",
+          "Brewing one pint of beer uses 168 liters of water. 100,000 queries consume 2,500 liters, which equals about 15 pints of beer.",
       },
       energy: {
         chatgpt: {
@@ -448,7 +448,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.chooseenergy.com/news/article/how-much-energy-it-takes-to-brew-st-patricks-day-beer/",
         },
         calculation:
-          "Modern breweries are surprisingly efficient, using just 0.3 kWh per pint. The 30 kWh from those queries could brew 100 pints—that's a proper party! Or looked at differently, every 1,000 ChatGPT questions equals the energy in one cold beer.",
+          "Brewing a pint requires 0.3 kWh. With 100,000 queries using 30 kWh, that's enough energy to brew 100 pints.",
       },
       carbon: {
         chatgpt: {
@@ -462,7 +462,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.theguardian.com/environment/green-living-blog/2010/jun/04/carbon-footprint-beer",
         },
         calculation:
-          "Each pint releases half a kilogram of CO₂—and that's before the bubbles! With 13.5 kg from 100,000 queries, that equals 27 pints. So a month of weekend drinks has the same carbon impact as all those AI interactions.",
+          "A pint of beer generates 0.5 kg CO₂. 100,000 queries produce 13.5 kg, which equals 27 pints worth of carbon emissions.",
       },
     },
   },
@@ -504,7 +504,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.fluencecorp.com/water-use-in-petroleum-refining/",
         },
         calculation:
-          "Gasoline refining needs about 0.34 liters of water per liter of fuel. With the average car getting 25 mpg and using 3.8 L per day commuting, that's 1.3 L of water daily. Those 2,500 L from 100,000 queries? That's three weeks of commuting—not bad for a technology often accused of being wasteful!",
+          "Refining gasoline uses 0.34 L water per liter of fuel. A typical commute uses 3.8 L fuel daily, requiring 1.3 L water. So 100,000 queries (2,500 L) equals 21 days of commuting fuel water.",
       },
       energy: {
         chatgpt: {
@@ -519,7 +519,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle",
         },
         calculation:
-          "A typical car burns through 40 kWh of energy per hour of driving. Those 100,000 queries at 30 kWh? That's just 45 minutes on the highway. Your daily commute likely uses more energy than months of ChatGPT conversations.",
+          "Driving uses about 40 kWh per hour. Since 100,000 queries consume 30 kWh, that's 45 minutes of driving.",
       },
       carbon: {
         chatgpt: {
@@ -534,7 +534,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle",
         },
         calculation:
-          "Cars emit about 177 grams of CO₂ per kilometer. The 13.5 kg from 100,000 queries equals just 76 km of driving—about an hour and a quarter on the road. Many people drive that far just getting to work and back.",
+          "Cars emit 177 g CO₂ per kilometer. 100,000 queries produce 13.5 kg CO₂, which equals 76 km of driving—about 76 minutes on the road.",
       },
     },
   },
@@ -576,7 +576,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.datacenterknowledge.com/business/heres-how-much-water-all-us-data-centers-consume",
         },
         calculation:
-          "Power plants evaporate 7.6 liters of water per kWh generated. The average Melbourne home uses about 24 kWh daily, evaporating 182 liters. With 2,500 L from those queries, that's roughly two weeks of household electricity. Every time you flip a switch, water literally goes up in steam.",
+          "Generating 1 kWh evaporates 7.6 liters of water. A Melbourne home uses 24 kWh daily (182 L water). 100,000 queries use 2,500 L, equivalent to 14 days of household electricity water use.",
       },
       energy: {
         chatgpt: {
@@ -590,7 +590,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.theaustralian.com.au/nation/politics/victorias-grid-dirtiest-as-experts-say-yallourn-may-stay-open-longer-than-planned/news-story/8725102ad58fb5efd454d157a5074b1b",
         },
         calculation:
-          "The average Melbourne home consumes about 24 kWh per day. Those 100,000 queries using 30 kWh? That's keeping your lights on, fridge running, and devices charged for just 30 hours. A single day and a quarter of normal life equals a massive AI session.",
+          "Melbourne homes average 24 kWh per day. With 100,000 queries using 30 kWh, that powers a home for 30 hours.",
       },
       carbon: {
         chatgpt: {
@@ -604,7 +604,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.theaustralian.com.au/nation/politics/victorias-grid-dirtiest-as-experts-say-yallourn-may-stay-open-longer-than-planned/news-story/8725102ad58fb5efd454d157a5074b1b",
         },
         calculation:
-          "Victoria's coal-heavy grid emits 0.85 kg CO₂ per kWh—nearly double the global average. Still, those 100,000 queries at 13.5 kg CO₂ equal just 16 kWh on the local grid. That's only 16 hours of typical household electricity use in Melbourne.",
+          "Victoria's grid emits 0.85 kg CO₂ per kWh. 100,000 queries produce 13.5 kg CO₂, equivalent to using 16 kWh on Victoria's grid—or 16 hours of typical home electricity.",
       },
     },
   },
@@ -644,7 +644,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.autosport.com/f1/news/how-much-fuel-does-a-formula-1-car-use-f1-nascar-more-compared-4980266/",
         },
         calculation:
-          "F1 cars are limited to 110 kg of fuel per race, requiring about 147 liters of water to refine. With 2,500 L from 100,000 queries, you could fuel 17 complete Formula 1 races! That's almost an entire season of racing from what seems like a lot of ChatGPT usage.",
+          "An F1 car uses 110 kg fuel per race, requiring 147 L water to refine. 100,000 queries use 2,500 L water, enough to fuel 17 F1 races.",
       },
       energy: {
         chatgpt: {
@@ -658,7 +658,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://h2sciencecoalition.com/blog/hydrogen-for-aircraft-number-crunching-the-solution-or-the-hoax/",
         },
         calculation:
-          "An F1 car's 110 kg fuel load packs 1,300 kWh of energy. Those 100,000 queries at 30 kWh? That's just 2% of a single race's fuel. In F1 terms, that's about 3 laps around the track—blink and you'll miss it.",
+          "F1 fuel contains 11.9 kWh per kg, so 110 kg equals 1,300 kWh per race. 100,000 queries at 30 kWh is just 2.3% of one race's energy.",
       },
       carbon: {
         chatgpt: {
@@ -672,7 +672,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://theicct.org/sites/default/files/publications/variation-aviation-emissions-itinerary-jul2021-1.pdf",
         },
         calculation:
-          "One F1 race burns 110 kg of fuel, releasing 348 kg of CO₂. The 13.5 kg from those queries? That's just 4% of one race. Lewis Hamilton produces more carbon in a single qualifying lap than your entire ChatGPT session.",
+          "Burning 110 kg of F1 fuel releases 348 kg CO₂. With 100,000 queries producing 13.5 kg, that's 3.9% of one race's emissions.",
       },
     },
   },
@@ -712,7 +712,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.automotiveworld.com/articles/water-water-everywhere-vehicle-manufacturing/",
         },
         calculation:
-          "Manufacturing a single car requires a staggering 148,000 liters of water—enough to fill 74 average swimming pools. In comparison, those 2,500 L from 100,000 queries? That's just 1.7% of building one car. You'd need 6 million ChatGPT queries to match the water footprint of that new vehicle in your driveway.",
+          "Car manufacturing requires 148,000 liters of water. 100,000 queries use 2,500 liters, which is just 1.7% of making one car.",
       },
       energy: {
         chatgpt: {
@@ -726,7 +726,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.greencarcongress.com/2011/06/lowcvp-20110608.html",
         },
         calculation:
-          "Before a car even hits the road, it's already consumed 24,000 kWh in manufacturing. Your 100,000 queries at 30 kWh? That's 0.125% of making one car—roughly equivalent to installing the cup holders. You'd need 80 million queries to match the energy of manufacturing a single vehicle.",
+          "Manufacturing a car takes 24,000 kWh. With 100,000 queries using 30 kWh, that's 0.125% of building one vehicle.",
       },
       carbon: {
         chatgpt: {
@@ -740,7 +740,7 @@ const environmentalData: EnvironmentalItem[] = [
           url: "https://www.zemo.org.uk/assets/workingdocuments/MC-P-11-15a%20Lifecycle%20emissions%20report.pdf",
         },
         calculation:
-          "A car's manufacturing releases 5.6 tonnes of CO₂ before it drives a single kilometer. Those 13.5 kg from 100,000 queries? That's just 0.24% of one car's production emissions—about what's released making the floor mats. The real carbon cost is in what we drive, not what we type.",
+          "Car production emits 5.6 tonnes of CO₂. 100,000 queries generate 13.5 kg, just 0.24% of manufacturing one car.",
       },
     },
   },
@@ -759,15 +759,17 @@ export default function HomePage() {
         <div className="space-y-6">
           <div className="flex items-center gap-2">
             <span className="text-2xl">💧</span>
-            <h3 className="text-lg font-semibold text-blue-700">Water Usage</h3>
+            <h3 className="text-lg font-semibold text-blue-400">Water Usage</h3>
           </div>
-          <div className="bg-blue-50 p-4 rounded-lg">
-            <p className="text-blue-900">{item.citations.water.calculation}</p>
+          <div className="bg-blue-900/30 p-4 rounded-lg">
+            <p className="text-blue-200">{item.citations.water.calculation}</p>
           </div>
           <div className="space-y-4">
             <div>
-              <p className="font-medium">{item.activity}&apos;s water usage:</p>
-              <blockquote className="border-l-4 border-blue-200 pl-4 italic mt-2">
+              <p className="font-medium text-gray-100">
+                {item.activity}&apos;s water usage:
+              </p>
+              <blockquote className="border-l-4 border-blue-700 pl-4 italic mt-2 text-gray-300">
                 &ldquo;{item.citations.water.comparison.quote}&rdquo;
               </blockquote>
               <p className="mt-2">
@@ -776,7 +778,7 @@ export default function HomePage() {
                   href={item.citations.water.comparison.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-blue-400 hover:text-blue-300 hover:underline"
                 >
                   {item.citations.water.comparison.author}
                 </a>
@@ -784,8 +786,10 @@ export default function HomePage() {
             </div>
 
             <div>
-              <p className="font-medium">ChatGPT&apos;s water usage:</p>
-              <blockquote className="border-l-4 border-blue-200 pl-4 italic mt-2">
+              <p className="font-medium text-gray-100">
+                ChatGPT&apos;s water usage:
+              </p>
+              <blockquote className="border-l-4 border-blue-700 pl-4 italic mt-2 text-gray-300">
                 &ldquo;{item.citations.water.chatgpt.quote}&rdquo;
               </blockquote>
               <p className="mt-2">
@@ -794,7 +798,7 @@ export default function HomePage() {
                   href={item.citations.water.chatgpt.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-blue-400 hover:text-blue-300 hover:underline"
                 >
                   {item.citations.water.chatgpt.author}
                 </a>
@@ -807,21 +811,21 @@ export default function HomePage() {
         <div className="space-y-6">
           <div className="flex items-center gap-2">
             <span className="text-2xl">⚡</span>
-            <h3 className="text-lg font-semibold text-yellow-700">
+            <h3 className="text-lg font-semibold text-yellow-400">
               Energy Usage
             </h3>
           </div>
-          <div className="bg-yellow-50 p-4 rounded-lg">
-            <p className="text-yellow-900">
+          <div className="bg-yellow-900/30 p-4 rounded-lg">
+            <p className="text-yellow-200">
               {item.citations.energy.calculation}
             </p>
           </div>
           <div className="space-y-4">
             <div>
-              <p className="font-medium">
+              <p className="font-medium text-gray-100">
                 {item.activity}&apos;s energy usage:
               </p>
-              <blockquote className="border-l-4 border-yellow-200 pl-4 italic mt-2">
+              <blockquote className="border-l-4 border-yellow-700 pl-4 italic mt-2 text-gray-300">
                 &ldquo;{item.citations.energy.comparison.quote}&rdquo;
               </blockquote>
               <p className="mt-2">
@@ -830,7 +834,7 @@ export default function HomePage() {
                   href={item.citations.energy.comparison.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-yellow-400 hover:text-yellow-300 hover:underline"
                 >
                   {item.citations.energy.comparison.author}
                 </a>
@@ -838,8 +842,10 @@ export default function HomePage() {
             </div>
 
             <div>
-              <p className="font-medium">ChatGPT&apos;s energy usage:</p>
-              <blockquote className="border-l-4 border-yellow-200 pl-4 italic mt-2">
+              <p className="font-medium text-gray-100">
+                ChatGPT&apos;s energy usage:
+              </p>
+              <blockquote className="border-l-4 border-yellow-700 pl-4 italic mt-2 text-gray-300">
                 &ldquo;{item.citations.energy.chatgpt.quote}&rdquo;
               </blockquote>
               <p className="mt-2">
@@ -848,7 +854,7 @@ export default function HomePage() {
                   href={item.citations.energy.chatgpt.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-yellow-400 hover:text-yellow-300 hover:underline"
                 >
                   {item.citations.energy.chatgpt.author}
                 </a>
@@ -861,21 +867,21 @@ export default function HomePage() {
         <div className="space-y-6">
           <div className="flex items-center gap-2">
             <span className="text-2xl">🌱</span>
-            <h3 className="text-lg font-semibold text-green-700">
+            <h3 className="text-lg font-semibold text-green-400">
               Carbon Emissions
             </h3>
           </div>
-          <div className="bg-green-50 p-4 rounded-lg">
-            <p className="text-green-900">
+          <div className="bg-green-900/30 p-4 rounded-lg">
+            <p className="text-green-200">
               {item.citations.carbon.calculation}
             </p>
           </div>
           <div className="space-y-4">
             <div>
-              <p className="font-medium">
+              <p className="font-medium text-gray-100">
                 {item.activity}&apos;s carbon emissions:
               </p>
-              <blockquote className="border-l-4 border-green-200 pl-4 italic mt-2">
+              <blockquote className="border-l-4 border-green-700 pl-4 italic mt-2 text-gray-300">
                 &ldquo;{item.citations.carbon.comparison.quote}&rdquo;
               </blockquote>
               <p className="mt-2">
@@ -884,7 +890,7 @@ export default function HomePage() {
                   href={item.citations.carbon.comparison.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-green-400 hover:text-green-300 hover:underline"
                 >
                   {item.citations.carbon.comparison.author}
                 </a>
@@ -892,8 +898,10 @@ export default function HomePage() {
             </div>
 
             <div>
-              <p className="font-medium">ChatGPT&apos;s carbon emissions:</p>
-              <blockquote className="border-l-4 border-green-200 pl-4 italic mt-2">
+              <p className="font-medium text-gray-100">
+                ChatGPT&apos;s carbon emissions:
+              </p>
+              <blockquote className="border-l-4 border-green-700 pl-4 italic mt-2 text-gray-300">
                 &ldquo;{item.citations.carbon.chatgpt.quote}&rdquo;
               </blockquote>
               <p className="mt-2">
@@ -902,7 +910,7 @@ export default function HomePage() {
                   href={item.citations.carbon.chatgpt.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-green-400 hover:text-green-300 hover:underline"
                 >
                   {item.citations.carbon.chatgpt.author}
                 </a>
@@ -915,28 +923,28 @@ export default function HomePage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-cyan-50">
+    <div className="min-h-screen bg-gray-900 text-gray-100">
       <div className="w-full">
         {/* Header */}
 
         {/* Main Content Card */}
-        <Card className="md:mx-4 md:my-4 border-0 md:border shadow-none md:shadow-xl">
+        <Card className="md:mx-4 md:my-4 border-0 md:border bg-gray-800 border-gray-700">
           <CardContent className="p-0 md:p-6">
             <Table>
               <TableHeader>
-                <TableRow>
-                  <TableHead className="font-semibold text-gray-900 py-2 px-1 md:py-3 md:px-3">
-                    <h1 className="text-xl md:text-2xl font-bold text-gray-900">
+                <TableRow className="border-gray-700">
+                  <TableHead className="font-semibold text-gray-100 py-2 px-1 md:py-3 md:px-3">
+                    <h1 className="text-xl md:text-2xl font-bold text-gray-100">
                       100,000 ChatGPT queries is like...
                     </h1>
                   </TableHead>
-                  <TableHead className="font-semibold text-blue-700 py-2 px-1 md:py-3 md:px-3 text-center">
+                  <TableHead className="font-semibold text-blue-400 py-2 px-1 md:py-3 md:px-3 text-center">
                     💧
                   </TableHead>
-                  <TableHead className="font-semibold text-yellow-700 py-2 px-1 md:py-3 md:px-3 text-center">
+                  <TableHead className="font-semibold text-yellow-400 py-2 px-1 md:py-3 md:px-3 text-center">
                     ⚡
                   </TableHead>
-                  <TableHead className="font-semibold text-green-700 py-2 px-1 md:py-3 md:px-3 text-center">
+                  <TableHead className="font-semibold text-green-400 py-2 px-1 md:py-3 md:px-3 text-center">
                     🌱
                   </TableHead>
                 </TableRow>
@@ -945,8 +953,8 @@ export default function HomePage() {
                 {environmentalData.map((item, index) => (
                   <TableRow
                     key={index}
-                    className={`hover:bg-gray-50 transition-colors cursor-pointer ${
-                      selectedActivity === item.activity ? "bg-gray-100" : ""
+                    className={`hover:bg-gray-700 transition-colors cursor-pointer border-gray-700 ${
+                      selectedActivity === item.activity ? "bg-gray-700" : ""
                     }`}
                     onClick={() =>
                       setSelectedActivity(
@@ -956,16 +964,16 @@ export default function HomePage() {
                       )
                     }
                   >
-                    <TableCell className="font-medium py-1 px-2 md:py-2 md:px-3">
+                    <TableCell className="font-medium py-1 px-2 md:py-2 md:px-3 text-gray-100">
                       {item.activity}
                     </TableCell>
-                    <TableCell className="py-1 px-2 md:py-2 md:px-3 text-blue-700 text-center">
+                    <TableCell className="py-1 px-2 md:py-2 md:px-3 text-blue-400 text-center">
                       {item.water}
                     </TableCell>
-                    <TableCell className="py-1 px-2 md:py-2 md:px-3 text-yellow-700 text-center">
+                    <TableCell className="py-1 px-2 md:py-2 md:px-3 text-yellow-400 text-center">
                       {item.energy}
                     </TableCell>
-                    <TableCell className="py-1 px-2 md:py-2 md:px-3 text-green-700 text-center">
+                    <TableCell className="py-1 px-2 md:py-2 md:px-3 text-green-400 text-center">
                       {item.carbon}
                     </TableCell>
                   </TableRow>
@@ -978,8 +986,8 @@ export default function HomePage() {
         {/* Sources Section */}
         {selectedActivity && (
           <div className="mt-4 md:mt-8 mx-0 md:mx-4">
-            <Card className="border-0 md:border shadow-none md:shadow">
-              <CardContent className="prose prose-gray max-w-none p-2 md:p-6 pt-0">
+            <Card className="border-0 md:border bg-gray-800 border-gray-700">
+              <CardContent className="prose prose-invert max-w-none p-2 md:p-6 pt-0">
                 {(() => {
                   const item = environmentalData.find(
                     (i) => i.activity === selectedActivity
