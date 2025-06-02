@@ -1,0 +1,53 @@
+**Full source list for every number used in the comparison table**
+
+1. Li, P. et al. *Making AI Less “Thirsty”: Uncovering and Addressing the Secret Water Footprint of AI Models* (UC Riverside, 2023) ([arXiv][1])
+2. Epoch AI. “How Much Energy Does ChatGPT Use?” (Gradient Update, 2025) ([Epoch AI][2])
+3. Ember & Energy Institute. “Carbon-intensity of Electricity Generation, 2024” (Our World in Data, 2025 update) ([Our World in Data][3])
+4. Water Footprint Network. *Report 16, Vol. 1 – Global Beef & Feed Water Footprints* (2005) ([waterfootprint.org][4])
+5. University of Wisconsin-Madison. “A More Digestible CO₂ Calculator Swaps Cheeseburgers for Carbon” (2024) ([UW-Madison Engineering][5])
+6. AskWonder summary of The Oil Drum data: 31.5 kWh lb-¹ beef (2018) ([Wonder][6])
+7. How-To-Geek. “How Much Does It Cost to Charge Your Smartphone for a Year?” (2023) – 0.019 kWh per full iPhone charge ([How-To Geek][7])
+8. University of Illinois CEE. “AI’s Challenging Waters” – 7.6 L water kWh-¹ thermoelectric/hydro grid average (2024) ([UIUC Engineering][8])
+9. Our World in Data. “Which Form of Transport Has the Smallest Carbon Footprint?” – 246 g CO₂ km-¹ domestic flights (2023) ([Our World in Data][9])
+10. Fluence Corp. “Water Use in Petroleum Refining” – jet-fuel refining 0.09 gal water gal-¹ fuel; gasoline 0.60-0.71 gal gal-¹ (2018) ([Fluence][10])
+11. Viva! UK. “Average Carbon Footprint of One Avocado ≈ 0.19 kg CO₂e” (2021) ([Viva!][11])
+12. Danwatch. “Avocados and Stolen Water” – 320 L water per avocado in Chile’s Petorca (2017) ([Danwatch][12])
+13. TriplePundit. “Coffee’s Grande Water Footprint” – >200 L per 16-oz latte (2011) ([Triple Pundit][13])
+14. Nicole Battefeld. “How High Is the Carbon Footprint of Our Favourite Drink?” – 0.55 kg CO₂e per latte (2021) ([Nicole Battefeld][14])
+15. *The Guardian*. “Carbon Footprint of a Pint of Beer” – 500 g CO₂e bottled pint (2010) ([The Guardian][15])
+16. *The Guardian* infographic. “168 L Water per Pint of Beer” (2013) ([The Guardian][16])
+17. ChooseEnergy. “How Much Energy Does It Take to Brew Beer?” – 50-66 kWh bbl-¹ (2020) ([Choose Energy][17])
+18. US EPA. “Greenhouse-Gas Emissions from a Typical Passenger Vehicle” – 404 g CO₂ mile-¹ (2020) ([US EPA][18])
+19. Castle Water. “Water Consumption in Car Manufacturing – 177 000 L per car” (2024) ([Castle Water][19])
+20. *HotCars.* “Embedded Carbon of a New ICE Car ≈ 5.6 t CO₂e” (2022) ([HotCars][20])
+21. Autosport. “F1 Cars Can Use up to 110 kg Fuel per Race” (2021) ([Autosport][21])
+22. Victoria grid intensity article – 0.85 kg CO₂ kWh-¹ (The Australian, 2024) ([The Australian][22])
+23. Wired Energy blog. “Jet-fuel energy density ≈ 11.9 kWh kg-¹” (2023) ([Hydrogen Science Coalition][23])
+24. ICCT / ICAO constant – 3.16 kg CO₂ kg-¹ jet fuel (2021 PDF) ([ICCT][24])
+
+*(These 24 sources cover every water, energy, and carbon datum used in the table. You can map each row/metric to its three citations when you build the interactive site.)*
+
+[1]: https://arxiv.org/abs/2304.03271?utm_source=chatgpt.com "Making AI Less \"Thirsty\": Uncovering and Addressing the Secret Water Footprint of AI Models"
+[2]: https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use?utm_source=chatgpt.com "How much energy does ChatGPT use? - Epoch AI"
+[3]: https://ourworldindata.org/grapher/carbon-intensity-electricity?utm_source=chatgpt.com "Carbon intensity of electricity generation, 2024 - Our World in Data"
+[4]: https://www.waterfootprint.org/resources/Report16Vol1.pdf?utm_source=chatgpt.com "[PDF] Volume 1: Main Report - Water Footprint Network"
+[5]: https://engineering.wisc.edu/news/a-more-digestible-co2-calculator-swaps-cheeseburgers-for-carbon/?utm_source=chatgpt.com "A more digestible CO2 calculator swaps cheeseburgers for carbon"
+[6]: https://askwonder.com/research/energy-in-btus-expended-used-produce-1-pound-beef-chicken-pork-retail-k5gwibwm3?utm_source=chatgpt.com "How much ENERGY (in BTUs) is expended or used to produce 1 ..."
+[7]: https://www.howtogeek.com/842679/how-much-does-it-cost-to-charge-your-smartphone-for-a-year/?utm_source=chatgpt.com "How Much Does It Cost to Charge Your Smartphone for a Year?"
+[8]: https://cee.illinois.edu/news/AIs-Challenging-Waters?utm_source=chatgpt.com "AI's Challenging Waters | Civil & Environmental Engineering | Illinois"
+[9]: https://ourworldindata.org/travel-carbon-footprint?utm_source=chatgpt.com "Which form of transport has the smallest carbon footprint?"
+[10]: https://www.fluencecorp.com/water-use-in-petroleum-refining/?utm_source=chatgpt.com "Water Use and Reuse in Petroleum Refining - Fluence Corporation"
+[11]: https://viva.org.uk/planet/are-avocados-worse-for-the-environment-than-meat/?utm_source=chatgpt.com "Are avocados worse for the environment than meat? - Viva!"
+[12]: https://old.danwatch.dk/en/undersogelse/avocados-and-stolen-water/?utm_source=chatgpt.com "Avocados and stolen water - Danwatch"
+[13]: https://www.triplepundit.com/story/2011/coffees-grande-water-footprint/74751?utm_source=chatgpt.com "Coffee's Grande Water Footprint - TriplePundit"
+[14]: https://www.nicolebattefeld.com/post/carbon-footprint-of-coffee?utm_source=chatgpt.com "how high is the Carbon Footprint of our favourite drink?"
+[15]: https://www.theguardian.com/environment/green-living-blog/2010/jun/04/carbon-footprint-beer?utm_source=chatgpt.com "What's the carbon footprint of ... a pint of beer? - The Guardian"
+[16]: https://www.theguardian.com/sustainable-business/gallery/how-much-water-to-make-food-drink?utm_source=chatgpt.com "How much water goes into producing our food and drink? - in pictures"
+[17]: https://www.chooseenergy.com/news/article/how-much-energy-it-takes-to-brew-st-patricks-day-beer/?utm_source=chatgpt.com "How much energy does it take to brew beer?"
+[18]: https://19january2021snapshot.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle?utm_source=chatgpt.com "Greenhouse Gas Emissions from a Typical Passenger Vehicle"
+[19]: https://www.castlewater.co.uk/business-water-by-industry/car-manufacturing?utm_source=chatgpt.com "Business Water Use In The Car Manufacturing Industry"
+[20]: https://www.hotcars.com/the-truth-about-the-carbon-footprint-of-a-new-car-that-no-ones-talking-about/?utm_source=chatgpt.com "The Truth About The Carbon Footprint Of A New Car That No One's ..."
+[21]: https://www.autosport.com/f1/news/how-much-fuel-does-a-formula-1-car-use-f1-nascar-more-compared-4980266/4980266/?utm_source=chatgpt.com "How much fuel does a Formula 1 car use? F1, WEC & more compared"
+[22]: https://www.theaustralian.com.au/nation/politics/victorias-grid-dirtiest-as-experts-say-yallourn-may-stay-open-longer-than-planned/news-story/8725102ad58fb5efd454d157a5074b1b?utm_source=chatgpt.com "State energy grid is nation's dirtiest"
+[23]: https://h2sciencecoalition.com/blog/hydrogen-for-aircraft-number-crunching-the-solution-or-the-hoax/?utm_source=chatgpt.com "Hydrogen for aircraft - number crunching the solution, or the hoax"
+[24]: https://theicct.org/sites/default/files/publications/variation-aviation-emissions-itinerary-jul2021-1.pdf?utm_source=chatgpt.com "[PDF] Variation in aviation emissions by itinerary"
